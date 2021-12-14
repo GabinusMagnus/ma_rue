@@ -4,6 +4,6 @@ Ma rue NSI python
 
 *fait*
 
-trait.py
-rectangle.py (rectangles aléatoires)
-fenêtre.py
+- trait.py
+- rectangle.py (rectangles aléatoires)
+- fenêtre.py
