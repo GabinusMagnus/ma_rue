@@ -7,3 +7,5 @@ Ma rue NSI python
 - trait.py
 - rectangle.py (rectangles aléatoires)
 - fenêtre.py
+- porte rectangulaire
+- toit
