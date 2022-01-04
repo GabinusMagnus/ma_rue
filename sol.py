@@ -1,21 +1,23 @@
-#!/usr/bin/env python
-# coding: utf-8
+# Dépendances
+from ma_rue import rue, affiche 
+from trait import trait
 
-# In[20]:
+# Définitions
 
-
-from ipycanvas import Canvas
-
-rue = Canvas(width=800, height=400)
-
-rue
-
+# Fonction sol()
 def sol():
-    rue.fill_style = "black"
-
-    rue.fill_rect(0, 397, 760, 3)
+    '''
+    Trace une ligne horizontale au niveau du sol de la rue
+    d'épaisseur 3 pixels et de longueur 760 pixels
+    centrée dans le canvas
+            
+    '''
+    y_sol = rue.height-1 # ordonnée du sol de la rue
+    rue.line_width = 3
+    trait(20, y_sol, 780, y_sol)
+    rue.line_width = 1
     
-    y_sol = rue.height-1
-    
-sol()
-
+# Tests
+if __name__ == '__main__':
+    affiche(rue)
+    sol()
