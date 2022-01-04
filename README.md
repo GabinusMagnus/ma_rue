@@ -2,12 +2,5 @@
 Ma rue NSI python
 
 
-**modules**
-*fait*
-
-- trait.py (trait noir)
-- rectangle.py (rectangles aléatoires)
-- fenêtre.py (fenêtres des bâtiments)
-- porte rectangulaire (portes des bâtiments)
-- toit (toit triangulaire des bâtiments)
-
+**version finale de ma_rue**
+##uniquement des fichiers py, écrits en python3.
